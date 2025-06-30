@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Modern Weather Checker</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="weather-app" role="main" aria-label="Weather Checker App">
+    <h1>Weather Checker</h1>
+    <input id="cityInput" type="text" placeholder="Enter city name" aria-label="City name" />
+    <button onclick="getWeather()" aria-label="Submit city name">Submit</button>
+    <div id="weatherResult" class="weather-result" aria-live="polite"></div>
+    <div id="errorMsg" class="error" role="alert"></div>
+  </div>
+<script src="script.js"></script>
+  
+</body>
+
+</html>
